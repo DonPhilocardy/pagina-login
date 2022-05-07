@@ -1,0 +1,93 @@
+/* Limpar formatações padrão */
+*{margin: 0;
+	padding: 0;}
+
+body{font-size: 1em;
+	font-family: "Times New Roman", sans-serif;
+	background: #D6D6D6;}
+
+/*
+**** Layout ****
+*/	
+#container {
+	width: 1300px;
+	height: 500px;
+	box-shadow: 1px 1px 6px 6px #666262;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+
+#espaco-login {
+	width: 500px;
+	background-color: #D6D6D6;
+	height: 500px;
+	float: left;
+}
+
+#espaco-foto {
+	background-color: #EE82EF;
+	width: 800px;
+	height: 500px;
+	float: right;
+}
+
+h1 {
+	margin: auto;
+	width: 135px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+hr {
+   
+   width: 250px;
+   height: 1px;
+   margin: auto;
+   margin-bottom: 10px;
+   background-color: #81007F;
+ }
+
+span {
+	margin-left: 185px;
+}
+
+h3 {
+	margin-left: 125px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.email-senha {
+	margin-left: 125px;
+	border: 1px solid black;
+	padding: 5px 10px;
+	width: 250px;
+	border-radius: 4px;
+}
+
+#enviar {
+	margin-left: 125px;
+	margin-top: 25px;
+	width: 270px;
+	border-radius: 15px;
+	padding: 5px;
+	background-color: #81007F;
+	color: white;
+	border: none;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+}
+
+a {
+	margin-left: 185px;
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	width: 500px;
+	height: 400px;
+	margin-top: 60px;
+	margin-left: 100px;
+}
